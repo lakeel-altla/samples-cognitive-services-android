@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ms-speech-api</string>
+
+    <string name="button_connect">Connect</string>
+    <string name="button_recording">Recording</string>
+
+    <string name="textView_dummy">dummy</string>
+    <string name="textView_connected">Connected.</string>
+    <string name="textView_disconnected">Disconnected.</string>
+</resources>
