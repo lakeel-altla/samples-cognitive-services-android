@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">cognitive-services-speaker-identification</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_enrollment">Enrollment</string>
+    <string name="title_recognition">Recognition</string>
+    <string name="button_record">Record</string>
+    <string name="title_identification">Identification</string>
+    <string name="button_Identification">Identification</string>
+    <string name="dummy">dummy</string>
+    <string name="textView_identification_description">Please speak for 10 seconds now.</string>
+    <string name="button_check_result">Check Result</string>
+    <string name="title_profiles">Profiles</string>
+    <string name="title_register_audio">Register audio</string>
+</resources>

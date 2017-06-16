@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonIdentification"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonIdentification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/button_Identification" />
+
+    <Button
+        android:id="@+id/buttonCheckResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonIdentification"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false"
+        android:text="@string/button_check_result" />
+
+</RelativeLayout>
