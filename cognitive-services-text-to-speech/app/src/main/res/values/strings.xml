@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">cognitive-services-text-to-speech</string>
+    <string name="button_speech">speech</string>
+    <string name="editText_hint_spoken_text">Spoken text</string>
+</resources>

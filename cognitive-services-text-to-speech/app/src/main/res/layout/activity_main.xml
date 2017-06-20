@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp"
+    tools:context="com.android.sample.cognitive.services.text.to.speech.MainActivity">
+
+    <EditText
+        android:id="@+id/editTextSpeechWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonSpeech"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/editText_hint_spoken_text" />
+
+    <Button
+        android:id="@+id/buttonSpeech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/button_speech" />
+
+</RelativeLayout>
